@@ -83,6 +83,10 @@
     font-size: 20px;
 }
 
+#nav #cell li:hover {
+    background: var(--bg-header);
+}
+
 #nav #cell a {
     text-decoration: none;
     color: aliceblue;

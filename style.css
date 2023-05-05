@@ -11,6 +11,11 @@
     --bg-menuHd: rgb(188, 140, 219);
     --bg-tglACT: #ff4f89;
     --bg-tgl: rgb(0, 255, 62);
+    --bg-body: #ff000052;
+}
+
+body {
+    background: var(--bg-body);
 }
 
 #header {

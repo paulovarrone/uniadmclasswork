@@ -66,6 +66,8 @@
     display: none;
 }
 
+
+
 #nav #cell {
     display: flex;
     flex-direction: column;
@@ -81,4 +83,9 @@
     color: aliceblue;
 }
 
-
+@media (min-width: 1024px) {
+    #nav {
+        width: 220px;
+        right: 300px
+    }
+}

@@ -58,15 +58,20 @@
 }
 
 #nav {
-    width: 100%;
     background: var(--bg-menuHd);
-    padding-left: 26px;
+    padding-left: 12px;
     overflow: hidden;
     position: fixed;
     display: none;
+    top: 90px;
+    width: 280px;
 }
 
-
+@media (min-width: 600px) {
+    #nav {
+        width: 200px;
+    }
+}
 
 #nav #cell {
     display: flex;
@@ -83,9 +88,4 @@
     color: aliceblue;
 }
 
-@media (min-width: 1024px) {
-    #nav {
-        width: 220px;
-        right: 300px
-    }
-}
+

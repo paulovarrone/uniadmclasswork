@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff) ;
+}
+
+:root {
+    --ff: 'Poppins', sans-serif;
+    --bg-header: rgb(201, 166, 224);
+    --bg-menuHd: rgb(188, 140, 219);
+    --bg-tglACT: #ff4f89;
+    --bg-tgl: rgb(0, 255, 62);
+}
+
+#header {
+    background: var(--bg-header);
+    display: flex;
+    width: 104%;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: auto;
+    padding-right: 30px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.toggle {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--bg-tgl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: var(--bg-tglACT);
+}
+
+.toggle ion-icon {
+    position: absolute;
+    font-size: 40px;
+}
+
+.toggle ion-icon.open, .toggle.active ion-icon.close  {
+    display: block;
+}
+
+.toggle ion-icon.close, .toggle.active ion-icon.open {
+    display: none;
+}
+
+#nav {
+    width: 100%;
+    background: var(--bg-menuHd);
+    padding-left: 26px;
+    overflow: hidden;
+    position: fixed;
+    display: none;
+}
+
+#nav #cell {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+#nav #cell a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+

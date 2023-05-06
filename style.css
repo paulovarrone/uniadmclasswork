@@ -14,8 +14,10 @@ html {
 :root {
     --ff: 'Poppins', sans-serif;
     --bg-header: rgb(201, 166, 224);
-    --bg-menuHd: rgb(188, 140, 219);
+    --bg-menuHd: hwb(276 55% 14%);
     --bg-tglACT: #ff4f89;
+    --bg-btn: #ff4f89;
+    --bg-btn-hover: #fc1e68;
     --bg-tgl: rgb(0, 255, 62);
     --bg-body: #00ff3733;
 }
@@ -44,6 +46,7 @@ body {
     margin: auto;
     padding-right: 30px;
     position: fixed;
+    top: 0;
 }
 
 #logo {
@@ -116,18 +119,61 @@ body {
 
 #fotoP {
     width: 100%;
-    padding: 150px 20px;
+    padding-top: 150px;
     margin: auto;
 }
 
-@media (min-width: 600px) {
-    #fotoP {
-        width: 600px;
-    }
+#capa {
+    padding-top: 90px;
 }
 
-@media (min-width: 1024px) {
-    #fotoP {
-        width: 600px;
-    }
+#imagemCapa {
+    background-image: url(./banner1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75%;
+    display: flex;
+    
+    
+    
+}
+
+#cardTitulo {
+    width: 350px;
+    background: #ffffffc4;
+    margin-top: 250px;
+    height: 180px;
+    PADDING: 0 20px;
+    margin: 300px auto;
+}
+
+#qc {
+    margin-top: 10px;
+}
+
+#qctxt {
+    margin: 20px 0;
+}
+
+#qcbtn {
+    background: var(--bg-btn);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 100%;
+    font-weight: 700;
+}
+
+#qcbtn:hover {
+    background: var(--bg-btn-hover);
+    transition: background 0.7s ease;
+}
+
+#texto {
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
 }

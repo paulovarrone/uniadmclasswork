@@ -35,6 +35,12 @@ body {
     height: 1000px;
 }
 
+@media (min-width: 1024px) {
+    #capa {
+        height: 1200px;
+    }
+}
+
 #header {
     background: var(--bg-header);
     display: flex;
@@ -135,7 +141,7 @@ body {
     background-size: cover;
     background-position: 75%;
     display: flex;
-    
+    margin-bottom: 50px;
     
     
 }
@@ -176,4 +182,119 @@ body {
     width: 100%;
     text-align: justify;
     padding: 20px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+@media (min-width: 1024px) {
+    #cards {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        padding: 0 23px;
+        justify-content: center;
+    }
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border: solid 1px rgb(196, 196, 196);
+    
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 400px;
+    }
+}
+
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card h3, p, button  {
+    margin-left: 20px;
+}
+.card p {
+    width: 250px;
+    text-align: justify;
+    
+}
+
+.card button {
+    background: var(--bg-btn);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 100%;
+    font-weight: 700;
+    align-items: center;
+    
+}
+
+.card button:hover {
+    background: var(--bg-btn-hover);
+    transition: background 0.7s ease;
+}
+
+#btn1 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#btn2 {
+    margin-top: 115px;
+    margin-left: 100px;
+}
+
+#btn3 {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+@media (min-width: 1038px) {
+    #btn1 {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+    #btn2 {
+        margin-top: 88px;
+        margin-left: 150px;
+    }
+
+    #btn3 {
+        margin-top: 14px;
+        margin-left: 150px;
+    }
+
+}
+
+
+
+#forn, #seg, #bul  {
+    width: 298px;
+    height: 180px;
+}
+
+@media (min-width: 1038px) {
+    #forn, #seg, #bul  {
+        width: 397px;
+        height: 218px;
+    }
 }

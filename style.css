@@ -14,7 +14,7 @@ html {
 :root {
     --ff: 'Poppins', sans-serif;
     --bg-header: rgb(201, 166, 224);
-    --bg-menuHd: hwb(276 55% 14%);
+    --bg-menuHd: #bc8cdb;
     --bg-tglACT: #ff4f89;
     --bg-btn: #ff4f89;
     --bg-btn-hover: #fc1e68;
@@ -88,7 +88,7 @@ body {
 }
 
 #nav {
-    background: hwb(276 55% 14%);
+    background: var(--bg-menuHd);
     padding-left: 12px;
     overflow: hidden;
     position: fixed;

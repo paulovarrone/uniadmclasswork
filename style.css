@@ -88,7 +88,7 @@ body {
 }
 
 #nav {
-    background: var(--bg-menuHd);
+    background: hwb(276 55% 14%);
     padding-left: 12px;
     overflow: hidden;
     position: fixed;

@@ -42,16 +42,16 @@ body {
 
 #sobrenos {
     width: 100%;
-    height: 1850px;
+    height: 1600px;
 }
 
 @media (min-width: 1024px) {
     #capa {
-        height: 1200px;
+        height: 1100px;
     }
 
     #sobrenos {
-        height: 1000px;
+        height: 1100px;
     }
 
     #missao {
@@ -419,4 +419,24 @@ button {
 
 #mvvTitle {
     text-align: center;
+}
+
+#missTxt {
+    padding: 20px;
+    text-align: justify;
+    font-weight: 700;
+    color: #3a3636;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#missCont {
+    background: white;
+    border: 1px solid grey;
+    margin: 50px 20px;
+}
+
+span {
+    color: #bc8cdb;
+    text-transform: uppercase;
 }

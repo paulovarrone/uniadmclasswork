@@ -69,12 +69,6 @@ body {
     }
 }
 
-@media (min-width: 1100) {
-    #sobrenos {
-        height: 990px;
-    }
-}
-
 
 @media (min-width: 1024px) {
     #capa {
@@ -87,6 +81,12 @@ body {
 
     #missao {
         height: 1400px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #sobrenos {
+        height: 990px;
     }
 }
 

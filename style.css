@@ -227,7 +227,7 @@ body {
     margin-top: 10px;
 }
 
-.card h3, p, button  {
+.card h3, .p, button  {
     margin-left: 20px;
 }
 .card p {
@@ -319,4 +319,30 @@ body {
     }
 }
 
+#sobrenos {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#infoTitle {
+    text-align: center;
+    
+}
+
+.infoImg {
+    margin: 50px auto;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#infoTxt {
+    padding: 0 20px;
+    text-align: justify;
+    font-weight: 700;
+    color: #3a3636;
+    line-height: 35px;
+    font-size: 18px;
+}

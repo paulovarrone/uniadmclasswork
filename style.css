@@ -455,6 +455,7 @@ button {
     #mvv {
         flex-direction: row;
         align-items: flex-start;
+        gap: 20px;
     }
 }
 
@@ -500,9 +501,9 @@ button {
     }
 }
 
-@media (min-width: 1100px) {
-    #missCont {
-        width: 500px;
+@media (min-width: 1300px) {
+    #missTxt {
+        width: 600px;
     }
 }
 

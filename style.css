@@ -195,8 +195,6 @@ button {
     background-position: 75%;
     display: flex;
     margin-bottom: 50px;
-    
-    
 }
 
 #cardTitulo {
@@ -258,7 +256,7 @@ button {
 }
 
 .card {
-    width: 300px;
+    width: 100%;
     height: 500px;
     background: white;
     display: flex;
@@ -267,6 +265,12 @@ button {
     gap: 15px;
     border: solid 1px rgb(196, 196, 196);
     
+}
+
+@media (min-width: 700px) {
+    .card {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -281,10 +285,10 @@ button {
 }
 
 .card h3, .p, button  {
-    margin-left: 20px;
+    padding: 0 20px;
 }
 .card p {
-    width: 250px;
+    width: 100%;
     text-align: justify;
     
 }
@@ -323,15 +327,49 @@ button {
 }
 
 #btn1 {
-    margin: 44px auto;  
+    margin: 20px auto;
 }
 
 #btn2 {
-    margin: 119px auto;
+    margin: 99px auto 0px auto;
 }
 
 #btn3 {
-    margin: 15px auto 0px auto;
+    margin: 17px auto 0px auto;
+}
+
+@media (min-width: 373px) {
+    #btn1 {
+        margin: 50px auto;
+    }
+
+    #btn2 {
+        margin: 99px auto 0px auto;
+    }
+
+    #btn3 {
+        margin: 70px auto 0px auto;
+    }
+}
+
+@media (min-width: 700px) {
+    #btn1 {
+        margin: 31px auto;
+    }
+
+    #btn2 {
+        margin: 56px auto 0px auto;
+    }
+
+    #btn3 {
+        margin: 31px auto 0px auto;
+    }
+}
+
+@media (min-width: 765px) {
+    #btn3 {
+        margin: 56px auto 0px auto;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -344,13 +382,13 @@ button {
     }
 
     #btn3 {
-        margin: -1px auto 0px auto;
+        margin: 50px auto 0px auto;
     }
 }
 
 @media (min-width: 1065px) {
     #btn3 {
-        margin: 27px auto auto auto;
+        margin: 53px auto auto auto;
     }
 }
 
@@ -361,8 +399,15 @@ button {
 }
 
 #forn, #seg, #bul  {
-    width: 298px;
+    width: 100%;
     height: 180px;
+}
+
+@media (min-width: 700px) {
+    #forn, #seg, #bul {
+        width: 100%;
+        height: 268px;
+    }
 }
 
 @media (min-width: 1024px) {

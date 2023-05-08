@@ -492,7 +492,7 @@ button {
 #missCont {
     background: white;
     border: 1px solid grey;
-    margin: 50px 20px;
+    margin: 50px auto;
 }
 
 @media (min-width: 1024px) {

@@ -30,19 +30,69 @@ body {
     width: 100%;
 }
 
-#capa, #swot, #mixmkt, #financeiro {
+#capa, #financeiro {
     width: 100%;
     height: 2200px;
 }
 
 #missao {
     width: 100%;
-    height: 2000px;
+    height: 1500px;
+}
+
+@media (min-width: 375px ) {
+    #missao {
+        height: 1350px;
+    }
+}
+
+@media (min-width: 425px ) {
+    #missao {
+        height: 1250px;
+    }
 }
 
 #sobrenos {
     width: 100%;
     height: 1850px;
+}
+
+#mixmkt {
+    padding-top: 150px;
+    width: 100%;
+    height: 2650px;
+}
+
+@media (min-width: 375px ) {
+    #mixmkt {
+        height: 2500px;
+    }
+}
+
+@media (min-width: 425px ) {
+    #mixmkt {
+        height: 2450px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #mixmkt {
+        height: 1300px;
+    }
+}
+
+#swot {
+    padding-top: 150px;
+    width: 100%;
+    height: 2200px;
+}
+
+@media (min-width: 1024px) {
+    #swot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 280px) {
@@ -80,7 +130,13 @@ body {
     }
 
     #missao {
-        height: 1400px;
+        height: 1130px;
+    }
+}
+
+@media (min-width: 1300px) {
+    #missao {
+        height: 790px;
     }
 }
 
@@ -555,4 +611,134 @@ button {
 span {
     color: #bc8cdb;
     text-transform: uppercase;
+}
+
+#mixmkt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#proTitle {
+    text-align: center;
+}
+
+#ent {
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    #ent {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #produtos {
+        display: flex;
+        padding: 20px;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+#remedio1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+@media (min-width: 1200px) {
+    .video {
+        width: 570px;
+    }
+}
+
+.proTxt {
+    text-align: center;
+    text-align: justify;
+    background: white;
+    border: 1px solid grey;
+    margin: 50px 20px;
+}
+
+#remedio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#remedio2 .proTxt {
+    margin: 50px 20px 70px 20px;
+}
+
+.txtEnt {
+    padding: 20px;
+    text-align: justify;
+    font-weight: 700;
+    color: #3a3636;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+    .txtEnt {
+        width: 500px;
+    }
+}
+
+#allegra {
+    width: 100%;
+    margin-bottom: -40px;
+    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    #allegra {
+        width: 400px;
+        margin-bottom: -51px;
+    }
+}
+
+#swotTitle {
+    text-align: center;
+}
+
+#analise {
+    text-align: center;
+    text-align: justify;
+    background: white;
+    border: 1px solid grey;
+    margin: 50px 20px;
+}
+
+#swotTxt {
+    padding: 20px;
+    text-align: justify;
+    font-weight: 700;
+    color: #3a3636;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#swotImg {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    #swotTxt {
+        display: none;
+    }
+
+    #swotImg {
+        display: block;
+    }
 }

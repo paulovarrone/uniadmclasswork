@@ -817,6 +817,7 @@ span {
     background: var(--bg-footer);
     display: flex;
     flex-direction: row-reverse;
+    text-align: right;
 }
 
 #meu {
